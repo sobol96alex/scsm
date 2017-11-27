@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false">
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <root level="WARN" />    
+    <logger name="org.springframework" level="WARN" />
+    <logger name="org.springframework.web" level="WARN" />
+    <logger name="org.springframework.boot" level="WARN" />
+    <logger name="org.springframework.boot.actuate" level="WARN" />
+    <logger name="org.springframework.security" level="WARN" />
+    <logger name="org.springframework.security.ldap" level="WARN" />
+    <logger name="org.springframework.jdbc" level="WARN" />
+    <logger name="org.springframework.beans" level="WARN" />
+    <logger name="org.thymeleaf.TemplateEngine" level="WARN" />
+</configuration>
